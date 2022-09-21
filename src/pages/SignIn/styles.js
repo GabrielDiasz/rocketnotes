@@ -1,5 +1,8 @@
-import style from "styled-components"
+import style from "styled-components";
 
-export const Container = styled.view`
-  
+export const Container = styled.div`
+  height: 100vh;
+
+  display: flex;
+  align-items: stretch;
 `
